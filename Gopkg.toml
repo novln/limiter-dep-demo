@@ -1,0 +1,13 @@
+# Gopkg.toml example
+
+[[constraint]]
+  name = "github.com/go-chi/chi"
+  version = "4.0.2"
+
+[[constraint]]
+  branch = "v3-dep"
+  name = "github.com/ulule/limiter"
+
+[prune]
+  go-tests = true
+  unused-packages = true
